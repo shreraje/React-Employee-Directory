@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Heading from '../src/components/Heading';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
     <div>
-      <h1>Hello from App</h1>
+      <Heading/>
+      
     </div>
   );
 }
