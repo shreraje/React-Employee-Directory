@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/License-GNU AGPLv3.0-blue.svg" alt="License image of GNU AGPLv3.0" />
   
 ## Description
-The main objective of this project is to create a employee directory with React. Application's UI needs to be broken up into components, manage their component state, and respond to user events. Users can see random employees with photo ID, full name, gender, location and email ID. Also, users can search-filter current employees by typing their firstname, lastname, email or location from table-search box.
+The main objective of this project is to create a employee directory app with the help of React (Components), axios and Node.js. Application's UI needs to be broken up into components, manage their component state, and respond to user events. Users can see random employees with photo ID, full name, gender, location and email ID. Also, users can search-filter current employees by typing their firstname, lastname, email or location from table-search box.
 
 ## Table of Contents
 * [Description](#description)
@@ -22,7 +22,7 @@ The main objective of this project is to create a employee directory with React.
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
 ## Technologies
-- React (Components), axios, & Node.js..
+- React (Components), axios, & Node.js.
 
 ## Screenshot
 GitHub Deployed Application Screenshot:
