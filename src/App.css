@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+*{
+  color: aliceblue;
+}
+
+body {
+  background-image: linear-gradient(to right, black, rgba(51, 51, 66, 0.514));
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
