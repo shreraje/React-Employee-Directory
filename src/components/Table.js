@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import API from '../utils/API'
+import TableRow from './TableRow'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 class Table extends Component {
     employeeData() {
@@ -63,7 +66,13 @@ class Table extends Component {
                                 <th>Email</th>
                             </tr>
                         </thead>
-                       
+                        <tbody id="myTable">
+                            {this.state.items.map((items) => {
+                                return (
+                                    <TableRow picture={items.image} firstname={items.loginFirstName} lastname={items.loginLastName} gender={items.gender} location={items.location}  email={items.email}/>)
+                            })
+                            }
+                        </tbody>
                     </table>
                 </div>
             </div>
