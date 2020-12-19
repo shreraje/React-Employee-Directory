@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Heading from '../src/components/Heading';
+import Header from './components/Header';
+import Table from './components/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -8,7 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <Heading/>
+      
+      <Header/>
+      <Table/>
       
     </div>
   );
